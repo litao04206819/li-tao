@@ -1,6 +1,9 @@
-# 电池建模项目（PyBaMM）
+# 锂离子电池建模（PyBaMM）— 从放电仿真到参数辨识
 
-本项目使用 [PyBaMM](https://pybamm.org)（Python Battery Mathematical Modelling）构建锂离子电池模型，
+> 基于 [PyBaMM](https://pybamm.org) 的锂离子电池物理建模教程，由浅入深的 6 个 Jupyter Notebook，
+> 覆盖 SPM / SPMe / DFN 三类模型、放电倍率、动态工况、热与老化、参数辨识。
+
+本项目使用 PyBaMM（Python Battery Mathematical Modelling）构建锂离子电池模型，
 以 Jupyter Notebook 形式由浅入深演示从基础放电仿真到参数辨识的完整链路。
 
 > 说明：PyBaMM 为纯 Python 物理建模库，无 MATLAB 等价实现，因此本项目仅提供 Python / Notebook 版本。
