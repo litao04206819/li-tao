@@ -1,0 +1,12 @@
+# PyBaMM 电池建模模块依赖
+# 安装： pip install -r battery/requirements.txt
+
+pybamm>=26.0
+numpy
+scipy
+matplotlib
+pandas
+
+# 可选：参数辨识推荐使用官方优化库 PyBOP（需联网安装）
+# nb06 在无 PyBOP 时会自动退回到 scipy.optimize 路径，保证离线可跑
+# pybop>=25.0
